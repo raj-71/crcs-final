@@ -1,0 +1,16 @@
+#layoutError {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#layoutError #layoutError_content {
+    min-width: 0;
+    flex-grow: 1;
+}
+.img-error {
+    max-width: 20rem;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
