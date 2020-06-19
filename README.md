@@ -1,5 +1,5 @@
-# crcs-final
+# Cable Rent Collection System
 Live View [Click Here](https://cablerentsystem.herokuapp.com/)
 
-It is a nodejs based application - having login authentication
+Nodejs based application - login with session authentication<br/>
 Note - Put password same as email in login
