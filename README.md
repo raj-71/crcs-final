@@ -7,10 +7,10 @@ Credentials: (admin:admin)
 
 ## Table of Contents
 
-- [Features]
-- [Requirements]
-- [Installation]
-- [Usage]
+- [Features](https://github.com/raj-71/cable-rent-collection-system/#features)
+- [Requirements](https://github.com/raj-71/cable-rent-collection-system/#requirements)
+- [Installation](https://github.com/raj-71/cable-rent-collection-system/#installation)
+- [Usage](https://github.com/raj-71/cable-rent-collection-system/#usage)
 
 ## Features
 
