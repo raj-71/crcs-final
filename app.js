@@ -3,9 +3,7 @@ const bodyParser = require('body-parser');
 const userRoutes = require('./routes/routes');
 const dashboardRoutes = require('./routes/dashboardRoutes');
 const app = express();
-const morgan = require('morgan');
 const session = require('express-session');
-app.use(morgan('tiny'));
 app.use(express.static('public'));
 
 //Session Config
@@ -30,7 +28,7 @@ app.use('/dashboard',dashboardRoutes);
 app.use(require('./middlewares/error'));
 
 const debug = require('debug')('app');
-const server = app.listen(process.env.PORT || 1235,()=>{
+const server = app.listen(process.env.PORT || 3000,()=>{
     console.log('server start...',server.address().port);
     debug('Server Start',server.address().port,'PID',process.pid);
 })
